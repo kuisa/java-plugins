@@ -78,12 +78,12 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_SERVER", "");
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
-        env.put("ARGO_PORT", "8001");
+        env.put("ARGO_PORT", "18001");
         env.put("ARGO_DOMAIN", "minerack.free.us.kg");
-        env.put("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiMjdhMjI2OTYtOGQwMy00NTY3LTlmZDktZjk2MGU3MmRlOGY2IiwicyI6IlltVmlNRGxpTmpNdE5UVTJOeTAwTlRNNUxXSmhaRGN0TWpJMVlqaG1PR0k1WkdNMCJ9");
+        env.put("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiYzRiOTY5ZTUtZjUxNi00ZTNkLWI1NTYtZTZlMzViNGMzNDI4IiwicyI6IllUUXdPR0kzTXpJdE5Ea3hZeTAwWlRsaUxUaGxNR0V0T1RNNE5qSXdaVFkzTVdOaSJ9");
         env.put("S5_PORT", "");
         env.put("HY2_PORT", "");
-        env.put("TUIC_PORT", "25725");
+        env.put("TUIC_PORT", "25565");
         env.put("ANYTLS_PORT", "");
         env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");

